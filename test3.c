@@ -8,12 +8,13 @@ int main()
     if (age > 110)
     {
         printf("you are expired\n");
-        /* code */
     }
+    
     if (age >= 18 && age<=110)
     {
         printf("you can vote\n");
     }
+        
     else
     {
         printf(" you cannot vote\n");
