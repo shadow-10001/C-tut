@@ -5,21 +5,20 @@ int main()
     printf("what is your age?\n");
 
     scanf("%d", &age);
-    if (age >= 18)
-    {
-        printf("you can vote\n");
-    }
     if (age > 110)
     {
         printf("you are expired\n");
         /* code */
     }
-
+    if (age >= 18 && age<=110)
+    {
+        printf("you can vote\n");
+    }
     else
     {
         printf(" you cannot vote\n");
     }
-    printf("Thanks for your coorporation");
+    printf("Thanks for your cooperation");
 
     return 0;
 }
