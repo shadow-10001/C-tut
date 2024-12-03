@@ -20,5 +20,5 @@ int main()
     sum = n + f;
     printf("The sum of two numbers is %d", sum);
 
-    return 0;
+    return 0
 }
