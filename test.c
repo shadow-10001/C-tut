@@ -7,6 +7,7 @@ int main()
     int diff;
     diff = n - a;
     printf("The difference of two numbers is %d\n", diff);
+    // hello
     int x, y;
     x = 2;
     y = 10;
@@ -22,3 +23,4 @@ int main()
 
     return 0;
 }
+
